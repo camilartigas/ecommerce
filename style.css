@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/* área de preenchimento do container */
+.container{
+    padding: 0 150px;
+}
