@@ -8,23 +8,37 @@
     <link rel="stylesheet" href="style.css"><!--linca com css-->
     <title>Ecommerce</title><!--título do site-->
 </head>
-
 <body>
-
     <!--INICIO DO CABEÇALHO-->
     <header>
 
+        <div class="header-main"><!--principal do header-->
+
         <!--CONTAINER NO CABEÇALHO-->
-        <div class="container"></div>
-        <img src="logo.png" alt="logo da marca">
+        <div class="container-header">
+            <img src="logo.png" alt="logo da marca" width="120" height="80">
+
+            <!--PESQUISA NO SITE-->
+            <div class="busca">
+              <input type="search" name="search" class="serch-field" placeholder="O que deseja encontrar?"><!--cria uma caixa de pesquisa-->
+              <button class="search-btn"><!--cria um botão para pesquisa-->
+                  <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+            <!--FIM DA PESQUISA NO SITE-->
+
+        </div>
         <!--FIM CONTAINER NO CABEÇALHO-->
 
-        <!--MENU-->
-        <menu>
+        
 
-            <div class="container">
-                <ul>
-                    <li><a href="index.html">TODOS OS MEDICAMENTOS</a></li>
+        <!--MENU-->
+        <menu class="--menu--">
+
+            <div>
+                
+                <ul class="menu-navegacao">
+                    <li class="links"><a href="index.html">TODOS OS MEDICAMENTOS</a></li>
 
                     <li><a href="#">Sobre nós</a></li>
 
@@ -34,10 +48,11 @@
             </div>
 
         </menu>
-        <!--FIM MENU-->
+        <!--FIM MENU-->   
 
     </header>
     <!--FIM DO CABEÇALHO-->
+
 
     <!--INICIO DA MAIN-->
     <main>
@@ -49,6 +64,7 @@
     </main>
     <!--FIM DA MAIN-->
 
+    
     <!--INICIO DO RODAPÉ-->
     <footer>
 
@@ -57,7 +73,12 @@
         <!--FIM CONTAINER DO RODAPÉ-->
     </footer>
     <!--FIM DO RODAPÉ-->
+ 
     
+
+    <!--retirado do site ionicons-->
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

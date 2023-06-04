@@ -4,3 +4,19 @@
 .container{
     padding: 0 150px;
 }
+
+.menu-navegacao{
+    
+    /* menu em linha */
+    display: flex;
+    /* linha justificada */
+    justify-content: center;
+    /* espaço entre itens de menu */  
+    gap: 50px;
+    /* tira o ponto da lista */
+    list-style: none;
+
+    text-decoration: none;
+  
+  
+} 
