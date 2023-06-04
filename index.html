@@ -15,12 +15,15 @@
         <div class="header-main"><!--principal do header-->
 
         <!--CONTAINER NO CABEÇALHO-->
-        <div class="container-header">
+        <div class="container">
+
             <img src="logo.png" alt="logo da marca" width="120" height="80">
 
             <!--PESQUISA NO SITE-->
-            <div class="busca">
-              <input type="search" name="search" class="serch-field" placeholder="O que deseja encontrar?"><!--cria uma caixa de pesquisa-->
+            <div class="header-search-container">
+
+              <input type="search" name="search" class="search-field" placeholder="O que deseja encontrar?"><!--cria uma caixa de pesquisa-->
+
               <button class="search-btn"><!--cria um botão para pesquisa-->
                   <ion-icon name="search-outline"></ion-icon>
               </button>
@@ -33,16 +36,16 @@
         
 
         <!--MENU-->
-        <menu class="--menu--">
+        <menu class="desktop-navigation-menu">
 
-            <div>
+            <div class="container">
                 
-                <ul class="menu-navegacao">
-                    <li class="links"><a href="index.html">TODOS OS MEDICAMENTOS</a></li>
+                <ul class="desktop-menu-category-list">
+                    <li class="menu-category"><a href="index.html" class="menu-title">TODOS OS MEDICAMENTOS</a></li>
 
-                    <li><a href="#">Sobre nós</a></li>
+                    <li class="menu-category"><a href="#" class="menu-title">Sobre nós</a></li>
 
-                    <li><a href="contato.html">FALE CONOSCO</a></li>
+                    <li class="menu-category"><a href="contato.html" class="menu-title">FALE CONOSCO</a></li>
                 </ul>
 
             </div>

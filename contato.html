@@ -9,37 +9,43 @@
     <title>Ecommerce</title><!--título do site-->
 </head>
 <body>
-
     <!--INICIO DO CABEÇALHO-->
     <header>
 
         <div class="header-main"><!--principal do header-->
 
-            <!--CONTAINER NO CABEÇALHO-->
-        <div class="container-header">
-            <img src="logo.png" alt="logo da marca" width="120" height="80">
-            
-            
-  
-          </div>
-          
-          <!--FIM CONTAINER NO CABEÇALHO-->
+        <!--CONTAINER NO CABEÇALHO-->
+        <div class="container">
 
-        </div><!--fim conteúdo principal-->
+            <img src="logo.png" alt="logo da marca" width="120" height="80">
+
+            <!--PESQUISA NO SITE-->
+            <div class="header-search-container">
+
+              <input type="search" name="search" class="search-field" placeholder="O que deseja encontrar?"><!--cria uma caixa de pesquisa-->
+
+              <button class="search-btn"><!--cria um botão para pesquisa-->
+                  <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+            <!--FIM DA PESQUISA NO SITE-->
+
+        </div>
+        <!--FIM CONTAINER NO CABEÇALHO-->
 
         
 
         <!--MENU-->
-        <menu class="--menu--">
+        <menu class="desktop-navigation-menu">
 
-            <div>
+            <div class="container">
                 
-                <ul class="menu-navegacao">
-                    <li class="links"><a href="index.html">TODOS OS MEDICAMENTOS</a></li>
+                <ul class="desktop-menu-category-list">
+                    <li class="menu-category"><a href="index.html" class="menu-title">TODOS OS MEDICAMENTOS</a></li>
 
-                    <li><a href="#">Sobre nós</a></li>
+                    <li class="menu-category"><a href="#" class="menu-title">Sobre nós</a></li>
 
-                    <li><a href="contato.html">FALE CONOSCO</a></li>
+                    <li class="menu-category"><a href="contato.html" class="menu-title">FALE CONOSCO</a></li>
                 </ul>
 
             </div>
@@ -49,6 +55,17 @@
 
     </header>
     <!--FIM DO CABEÇALHO-->
+
+
+    <!--INICIO DA MAIN-->
+    <main>
+
+        <!--CONTAINER DA MAIN-->
+        <div class="container"></div>
+        <!--FIM DO ONTAINER DA MAIN-->
+
+    </main>
+    <!--FIM DA MAIN-->
 
     
     <!--INICIO DO RODAPÉ-->
@@ -62,6 +79,9 @@
  
     
 
+    <!--retirado do site ionicons-->
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
